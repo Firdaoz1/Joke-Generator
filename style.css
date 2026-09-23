@@ -1,0 +1,41 @@
+:root {
+  --nav-bg: #f3f6fd;
+  --main-bg: #eff8fe;
+  --text-primary: #151d40;
+  --text-secondary: #929bb9;
+  --div-bg: #fdfdfd;
+  --accent: #4a4cf8;
+}
+
+.dark {
+  --nav-bg: #151d40;
+  --main-bg: #0d1224;
+  --text-primary: #f3f6fd ;
+  --text-secondary: #929bb9;
+  --div-bg: #151d40;
+  --accent: #6b6df8;
+}
+
+body {
+   font-family: "Inter", sans-serif;
+}
+
+.nav-bg {
+  background-color: var(--nav-bg);
+}
+
+.main-bg {
+  background-color: var(--main-bg);
+}
+
+.text-primary {
+  color: var(--text-primary);
+}
+
+.text-secondary {
+  color: var(--text-secondary);
+}
+
+.accent {
+  color: var(--accent);
+}
